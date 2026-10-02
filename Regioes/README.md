@@ -40,6 +40,7 @@ cobc -x Regioes.cbl -o Regioes
 
 ## Exemplo de saída
 
+```text
 =================================
 CONTAGEM DE VENDAS
 CENTRO-OESTE    Ana Paula Ribeiro      R$   450,00
@@ -54,7 +55,7 @@ SUBTOTAL NORDESTE     : R$ 7.850,25
 SUBTOTAL SUL          : R$ 6.440,75
 =================================
 TOTAL GERAL           : R$ 42.896,98
-
+```
 
 ## O que pratiquei aqui
 
