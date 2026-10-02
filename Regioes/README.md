@@ -42,17 +42,18 @@ cobc -x Regioes.cbl -o Regioes
 
 =================================
 CONTAGEM DE VENDAS
-CENTRO-OESTE Ana Paula Ribeiro 00450000
-CENTRO-OESTE Marcos Lima 00320050
-CENTRO-OESTE Juliana Castro 00199999
-SUBTOTAL CENTRO-OESTE : 00970049
-NORDESTE Pedro Henrique Alves00275000
-NORDESTE Camila Torres 00510025
-SUBTOTAL NORDESTE : 00785025
+CENTRO-OESTE    Ana Paula Ribeiro      R$   450,00
+CENTRO-OESTE    Marcos Lima            R$   320,05
+CENTRO-OESTE    Juliana Castro         R$ 1.999,99
+SUBTOTAL CENTRO-OESTE : R$ 2.769,99
+
+NORDESTE        Pedro Henrique Alves   R$ 2.750,00
+NORDESTE        Camila Torres          R$ 5.100,25
+SUBTOTAL NORDESTE     : R$ 7.850,25
 ...
-SUBTOTAL SUL : 00644075
+SUBTOTAL SUL          : R$ 6.440,75
 =================================
-TOTAL GERAL: 04289698
+TOTAL GERAL           : R$ 42.896,98
 
 
 ## O que pratiquei aqui
