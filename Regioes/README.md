@@ -39,3 +39,27 @@ cobc -x Regioes.cbl -o Regioes
 > o arquivo `VENDAS.DATA`, pois o caminho no `SELECT` é relativo.
 
 ## Exemplo de saída
+
+=================================
+CONTAGEM DE VENDAS
+CENTRO-OESTE Ana Paula Ribeiro 00450000
+CENTRO-OESTE Marcos Lima 00320050
+CENTRO-OESTE Juliana Castro 00199999
+SUBTOTAL CENTRO-OESTE : 00970049
+NORDESTE Pedro Henrique Alves00275000
+NORDESTE Camila Torres 00510025
+SUBTOTAL NORDESTE : 00785025
+...
+SUBTOTAL SUL : 00644075
+=================================
+TOTAL GERAL: 04289698
+
+
+## O que pratiquei aqui
+
+- Leitura de arquivo sequencial com `READ` / `AT END` / `NOT AT END`
+- Acumuladores de subtotal e total geral
+- Comparação de registro atual com o anterior (técnica de quebra de 
+  controle)
+- Flag de controle para tratar o primeiro registro do arquivo, 
+  evitando a impressão de um subtotal "fantasma" no início
