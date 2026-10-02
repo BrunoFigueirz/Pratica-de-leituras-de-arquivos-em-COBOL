@@ -31,3 +31,30 @@ cobc -x Salarios.cbl -o Salarios
 > o arquivo `FUNCIONARIOS.DATA`, pois o caminho no `SELECT` é relativo.
 
 ## Exemplo de saída
+
+```text
+===========================
+CONTAGEM DE FUNCIONARIOS
+===========================
+
+12321 M Joao Silva
+13434 F Maria Silva
+43543 F Luiza Albuquerque
+53453 M Mario Oliveira
+43454 F Samara Correia
+87978 M Alberico Soares
+87886 M Carlos Souza
+76535 M Joao Ramalho
+54543 F Roberta Martins
+Resumo :
+TOTAL HOMENS: 005
+TOTAL MULHERES: 004
+```
+
+## O que pratiquei aqui
+
+- Estrutura básica de um programa COBOL (`IDENTIFICATION`, `ENVIRONMENT`,
+  `DATA`, `PROCEDURE`)
+- Leitura de arquivo sequencial com `READ` / `AT END` / `NOT AT END`
+- Contadores com `ADD`
+- `FUNCTION TRIM` para tratamento de texto
